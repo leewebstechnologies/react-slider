@@ -4,6 +4,7 @@ import data from "../../data";
 import "./slider.css";
 
 const Slider = () => {
+  // eslint-disable-next-line
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
